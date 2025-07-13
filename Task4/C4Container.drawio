@@ -144,7 +144,7 @@
             <mxPoint x="-52" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8XEOSdTNS2jKe0B6ZMab-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7VBXtj8w_6QsdJA1xl57-13" target="VIHfVhViry9cChKEcadO-24">
+        <mxCell id="8XEOSdTNS2jKe0B6ZMab-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7VBXtj8w_6QsdJA1xl57-13" target="VIHfVhViry9cChKEcadO-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="344" y="820" />
@@ -153,7 +153,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8XEOSdTNS2jKe0B6ZMab-4" value="Запрос актуальных ставок по депозитам" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8XEOSdTNS2jKe0B6ZMab-3">
+        <mxCell id="8XEOSdTNS2jKe0B6ZMab-4" value="Запрос актуальных ставок по депозитам" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8XEOSdTNS2jKe0B6ZMab-3" vertex="1" connectable="0">
           <mxGeometry x="-0.3757" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -235,7 +235,7 @@
             <mxPoint x="4" y="25" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8XEOSdTNS2jKe0B6ZMab-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VIHfVhViry9cChKEcadO-24" target="8XEOSdTNS2jKe0B6ZMab-6">
+        <mxCell id="8XEOSdTNS2jKe0B6ZMab-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="VIHfVhViry9cChKEcadO-24" target="8XEOSdTNS2jKe0B6ZMab-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1180" y="910" as="targetPoint" />
             <Array as="points">
@@ -244,7 +244,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8XEOSdTNS2jKe0B6ZMab-7" value="Регламентная передача актуальных ставок через защищенный внешний SMTP-сервер" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];whiteSpace=wrap;" vertex="1" connectable="0" parent="8XEOSdTNS2jKe0B6ZMab-5">
+        <mxCell id="8XEOSdTNS2jKe0B6ZMab-7" value="Регламентная передача актуальных ставок через защищенный внешний SMTP-сервер" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];whiteSpace=wrap;" parent="8XEOSdTNS2jKe0B6ZMab-5" vertex="1" connectable="0">
           <mxGeometry x="0.6469" y="-1" relative="1" as="geometry">
             <mxPoint x="355" y="1" as="offset" />
           </mxGeometry>
@@ -261,6 +261,11 @@
         <mxCell id="VIHfVhViry9cChKEcadO-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VIHfVhViry9cChKEcadO-24" target="VIHfVhViry9cChKEcadO-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="INtQ6rTuRPpZIDLdK7yQ-1" value="Хранение актуальных ставок по депозитам" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];whiteSpace=wrap;" vertex="1" connectable="0" parent="VIHfVhViry9cChKEcadO-34">
+          <mxGeometry x="-0.225" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VIHfVhViry9cChKEcadO-10" value="АБС&lt;br&gt;[Software System]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="710" width="100" height="30" as="geometry" />
         </mxCell>
@@ -276,7 +281,7 @@
         <mxCell id="VIHfVhViry9cChKEcadO-36" value="Очередь заявок по депозитам&lt;br&gt;&amp;nbsp;[Kafka]" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8XEOSdTNS2jKe0B6ZMab-6" value="Система партнерского кол-центра&lt;div&gt;[Software System]&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#AAAAAA;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="8XEOSdTNS2jKe0B6ZMab-6" value="Система партнерского кол-центра&lt;div&gt;[Software System]&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#AAAAAA;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="274" y="850" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
